@@ -155,3 +155,7 @@ PRODUCT_PACKAGES += \
     RoundWiFiOverlay \
     InsideWiFiOverlay \
     BarsWiFiOverlay
+
+#Prebuilt app	
+PRODUCT_PACKAGES += \
+    WeatherIcons 
