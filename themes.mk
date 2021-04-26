@@ -126,7 +126,29 @@ PRODUCT_PACKAGES += \
     UiStyleRoundMedium \
     UiStyleNoCornerRadius \
     UiStyleRectangle 
-	
+
+# Statusbar Icons
+PRODUCT_PACKAGES += \
+    StrokeSignalOverlay \
+    SneakySignalOverlay \
+    XperiaSignalOverlay \
+    ZigZagSignalOverlay \
+    WavySignalOverlay \
+    RoundSignalOverlay \
+    InsideSignalOverlay \
+    BarsSignalOverlay
+
+# Wi-Fi Icons
+PRODUCT_PACKAGES += \
+    StrokeWiFiOverlay \
+    SneakyWiFiOverlay \
+    XperiaWiFiOverlay \
+    ZigZagWiFiOverlay \
+    WavyWiFiOverlay \
+    RoundWiFiOverlay \
+    InsideWiFiOverlay \
+    BarsWiFiOverlay
+
 PRODUCT_COPY_FILES += \
     vendor/themes/fonts/Aclonica/Aclonica.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Aclonica.ttf \
     vendor/themes/fonts/Amarante/Amarante.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Amarante.ttf \
