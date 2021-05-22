@@ -4,25 +4,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/overlay/common
 # Allow overlays to be excluded from enforcing RRO
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlay/common
 
-# Themes
-PRODUCT_PACKAGES += \
-    ClearSpringSystemOverlay \
-    ClearSpringSystemUIOverlay \
-    PitchBlackSystemOverlay \
-    PitchBlackSystemUIOverlay \
-    SolarizedDarkSystemOverlay \
-    SolarizedDarkSystemUIOverlay \
-    BakedGreenSystemOverlay \
-    BakedGreenSystemUIOverlay \
-    ChocoXSystemOverlay \
-    ChocoXSystemUIOverlay \
-    MaterialOceanSystemOverlay \
-    MaterialOceanSystemUIOverlay \
-    DarkGreySystemOverlay \
-    DarkGreySystemUIOverlay \
-    SystemDark12Overlay \
-    SystemUIDark12Overlay
-
 # QS header styles
 PRODUCT_PACKAGES += \
     QSHeaderBlack \
@@ -67,6 +48,30 @@ PRODUCT_PACKAGES += \
     QStileOxygen \
     QStileTriangles \
     QStileCircleOutline
+
+# Custom Overlays
+# Settings
+PRODUCT_PACKAGES += \
+    SystemDark12Overlay \
+    SystemUIDark12Overlay \
+    SystemRavenBlackOverlay \
+    SystemUIRavenBlackOverlay \
+    SystemDarkGrayOverlay \
+    SystemUIDarkGrayOverlay \
+    SystemStyleOverlay \
+    SystemUIStyleOverlay \
+    SystemNightOverlay \
+    SystemUINightOverlay \
+    SystemMaterialOceanOverlay \
+    SystemUIMaterialOceanOverlay \
+    SystemBakedGreenOverlay \
+    SystemUIBakedGreenOverlay \
+    SystemChocoXOverlay \
+    SystemUIChocoXOverlay \
+    SystemDarkAubergineOverlay \
+    SystemUIDarkAubergineOverlay \
+    SystemClearSpringOverlay \
+    SystemUIClearSpringOverlay
 
 # QS Color Overlay
 PRODUCT_PACKAGES += \
