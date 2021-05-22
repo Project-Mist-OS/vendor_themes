@@ -19,7 +19,9 @@ PRODUCT_PACKAGES += \
     MaterialOceanSystemOverlay \
     MaterialOceanSystemUIOverlay \
     DarkGreySystemOverlay \
-    DarkGreySystemUIOverlay 
+    DarkGreySystemUIOverlay \
+    SystemDark12Overlay \
+    SystemUIDark12Overlay
 
 # QS header styles
 PRODUCT_PACKAGES += \
