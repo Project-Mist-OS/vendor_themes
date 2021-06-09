@@ -11,16 +11,6 @@ PRODUCT_PACKAGES += \
     QSHeaderLightGrey \
     QSHeaderAccent \
     QSHeaderTransparent
-	
-# Switch themes
-PRODUCT_PACKAGES += \
-    SwitchMD2 \
-    SwitchOnePlus \
-    SwitchStock \
-	Contained \
-    Retro \
-    Stockish \
-    Narrow
 
 # Panel Background
 PRODUCT_PACKAGES += \
