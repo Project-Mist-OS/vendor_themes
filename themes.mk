@@ -4,6 +4,18 @@ DEVICE_PACKAGE_OVERLAYS += vendor/overlay/common
 # Allow overlays to be excluded from enforcing RRO
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlay/common
 
+# Switch themes
+PRODUCT_PACKAGES += \
+    OnePlus \
+    Narrow \
+    Contained \
+    Telegram \
+    Retro \
+    MD2 \
+    OOS \
+    Fluid \
+    AndroidS
+
 # QS header styles
 PRODUCT_PACKAGES += \
     QSHeaderBlack \
