@@ -107,14 +107,6 @@ PRODUCT_PACKAGES += \
     BrightnessSliderMiniHalf \
     BrightnessSliderFlat \
     BrightnessSliderOOS
-	
-# NavBar themes
-PRODUCT_PACKAGES += \
- 	StockAsusOverlay \
-    NavbarAsusOverlay \
-    NavbarOnePlusOverlay \
-    NavbarOneUiOverlay \
-    NavbarTecnoCamonOverlay
 
 # Navbar
 PRODUCT_PACKAGES += \
