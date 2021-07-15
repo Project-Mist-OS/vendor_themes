@@ -106,7 +106,8 @@ PRODUCT_PACKAGES += \
     BrightnessSliderHalfGradient \
     BrightnessSliderMiniHalf \
     BrightnessSliderFlat \
-    BrightnessSliderOOS
+    BrightnessSliderOOS \
+    BrightnessSliderA12
 
 # Navbar
 PRODUCT_PACKAGES += \
