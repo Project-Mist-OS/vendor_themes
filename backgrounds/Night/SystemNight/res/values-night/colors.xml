@@ -21,4 +21,15 @@
     <color name="primary_dark_device_default_settings">#FF363844</color>
     <color name="notification_material_background_color">#FF363844</color>
     <color name="theme_generic_semi_transparent_color">#EA363844</color>
+	<color name="resolver_list_bg">@*android:color/primary_dark_device_default_settings</color>
+    <color name="chooser_service_row_background_color">@*android:color/primary_dark_device_default_settings</color>
+    <color name="material_grey_900">@*android:color/primary_dark_device_default_settings</color>
+    <color name="material_grey_850">@*android:color/primary_dark_device_default_settings</color>
+    <color name="material_grey_800">@*android:color/primary_dark_device_default_settings</color>
+    <color name="material_grey_600">@*android:color/primary_dark_device_default_settings</color>
+    <color name="material_blue_grey_700">@*android:color/primary_dark_device_default_settings</color>
+    <color name="material_blue_grey_800">@*android:color/primary_dark_device_default_settings</color>
+    <color name="material_blue_grey_900">@*android:color/primary_dark_device_default_settings</color>
+    <color name="material_blue_grey_950">@*android:color/primary_dark_device_default_settings</color>
+    <color name="toast_bg_color">@*android:color/primary_dark_device_default_settings</color>
 </resources>
