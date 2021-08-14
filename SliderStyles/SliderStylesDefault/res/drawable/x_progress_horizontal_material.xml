@@ -26,12 +26,10 @@
     <item android:id="@android:id/progress"
           android:gravity="center_vertical|fill_horizontal">
         <scale android:scaleWidth="100%">
-            <shape android:shape="rectangle">
+            <shape android:shape="rectangle"
+                   android:tint="?android:attr/colorControlActivated">
                 <size android:height="@*android:dimen/seekbar_track_progress_height_material" />
-                <gradient 
-                    android:startColor="@*android:color/gradient_start"
-                    android:endColor="@*android:color/gradient_end"
-                    android:angle="45" />
+				<solid android:color="@android:color/white" />
                 <corners android:radius="@*android:dimen/seekbar_track_progress_height_material" />
             </shape>
         </scale>

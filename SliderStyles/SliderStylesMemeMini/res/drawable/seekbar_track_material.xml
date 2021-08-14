@@ -32,12 +32,10 @@
     <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
         <scale android:scaleWidth="100%">
             <inset android:insetLeft="5.0dip" android:insetRight="5.0dip">
-                <shape android:shape="rectangle">
+                <shape android:shape="rectangle"
+                   android:tint="?android:attr/colorControlActivated">
                     <size android:height="13.0dip" />
-                    <gradient 
-                        android:startColor="@*android:color/gradient_start"
-                        android:endColor="@*android:color/gradient_end"
-                        android:angle="45"/>
+					<solid android:color="@android:color/white" />
                     <corners android:radius="5.0dip" />
                 </shape>
             </inset>
