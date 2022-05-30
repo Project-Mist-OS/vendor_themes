@@ -16,6 +16,7 @@
 
 # Statusbar Icons
 PRODUCT_PACKAGES += \
+    AcherusSignalOverlay \
     DoraSignalOverlay \
     StrokeSignalOverlay \
     SneakySignalOverlay \
@@ -46,11 +47,14 @@ PRODUCT_PACKAGES += \
     MiniSignalOverlay \
     NothingDotSignalOverlay \
     OdinSignalOverlay \
+    OutlineSignalOverlay \
+    PUISignalOverlay \
     PillsSignalOverlay \
     RomanSignalOverlay 
 
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
+    AcherusWiFiOverlay \
     DoraWiFiOverlay \
     GradiconWiFiOverlay \
     NothingDotWiFiOverlay \
@@ -62,6 +66,7 @@ PRODUCT_PACKAGES += \
     WeedWiFiOverlay \
     RoundWiFiOverlay \
     InsideWiFiOverlay \
+    OutlineWiFiOverlay \
     BarsWiFiOverlay
 
 # Themes
