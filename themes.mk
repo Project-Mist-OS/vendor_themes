@@ -1,140 +1,22 @@
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += vendor/overlay/common
-
-# Allow overlays to be excluded from enforcing RRO
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlay/common
-
-# Switch themes
-PRODUCT_PACKAGES += \
-    OnePlus \
-    Narrow \
-    Contained \
-    Telegram \
-    Retro \
-    MD2 \
-    OOS \
-    Fluid \
-    AndroidS
-
-# QS header styles
-PRODUCT_PACKAGES += \
-    QSHeaderBlack \
-    QSHeaderGrey \
-    QSHeaderLightGrey \
-    QSHeaderAccent \
-    QSHeaderTransparent
-
-# Panel Background
-PRODUCT_PACKAGES += \
-    PanelBgBatik \
-    PanelBgKece \
-    PanelBgOutline
-
-# QS tile styles
-PRODUCT_PACKAGES += \
-    QStileCircleTrim \
-    QStileDefault \
-    QStileDualToneCircle \
-    QStileSquircleTrim \
-    QStileAttemptMountain \
-    QStileDottedCircle \
-    QStileNinja \
-    QStilePokesign \
-    QStileWavey \
-    QStileCookie \
-    QStileInkDrop \
-    QStileSquaremedo \
-    QStileCosmos \
-    QStileDividedCircle \
-    QStileNeonLight \
-    QStileOxygen \
-    QStileTriangles \
-    QStileCircleOutline
-
-# Custom Overlays
-# Settings
-PRODUCT_PACKAGES += \
-    SystemDark12Overlay \
-    SystemUIDark12Overlay \
-    SystemRavenBlackOverlay \
-    SystemUIRavenBlackOverlay \
-    SystemDarkGrayOverlay \
-    SystemUIDarkGrayOverlay \
-    SystemStyleOverlay \
-    SystemUIStyleOverlay \
-    SystemNightOverlay \
-    SystemUINightOverlay \
-    SystemMaterialOceanOverlay \
-    SystemUIMaterialOceanOverlay \
-    SystemBakedGreenOverlay \
-    SystemUIBakedGreenOverlay \
-    SystemChocoXOverlay \
-    SystemUIChocoXOverlay \
-    SystemDarkAubergineOverlay \
-    SystemUIDarkAubergineOverlay \
-    SystemClearSpringOverlay \
-    SystemUIClearSpringOverlay
-
-# QS Color Overlay
-PRODUCT_PACKAGES += \
-    QsColor
-
-  # GVM
-PRODUCT_PACKAGES += \
-    GVM-PGM-ORCD \
-    GVM-PGM-OPRD \
-    GVM-PGM-PURP
-	
-# Notification themes
-PRODUCT_PACKAGES += \
-    NotificationBlackTheme \
-    NotificationDarkTheme \
-    NotificationLightTheme
-	
-# Brightness sliders Styles
-PRODUCT_PACKAGES += \
-    BrightnessSliderDefault \
-    BrightnessSliderDaniel \
-    BrightnessSliderMemeMini \
-    BrightnessSliderMemeRound \
-    BrightnessSliderMemeRoundStroke \
-    BrightnessSliderMemeStroke \
-    BrightnessSliderMiniHalf \
-    BrightnessSliderFlat \
-    BrightnessSliderOOS \
-    BrightnessSliderA12
-
-# Navbar
-PRODUCT_PACKAGES += \
-    GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden \
-    GesturalNavigationRadiusLow \
-    GesturalNavigationRadiusVeryLow \
-    GesturalNavigationRadiusHidden \
-    AndroidNavbarOverlay \
-    AsusNavbarOverlay \
-    MotoNavbarOverlay \
-    NexusNavbarOverlay \
-    OldNavbarOverlay \
-    OnePlusNavbarOverlay \
-    OneUiNavbarOverlay \
-    SammyNavbarOverlay \
-    TecnoCamonNavbarOverlay
-	
-# UI Styles
-PRODUCT_PACKAGES += \
-    StatusBar-Large \
-    StatusBar-Medium \
-    StatusBar-MediumLarge \
-    UiStyleDefault \
-    UiStyleRoundLarge \
-    UiStyleRoundMedium \
-    UiStyleNoCornerRadius \
-    UiStyleRectangle 
+#
+# Copyright (C) 2020-22 The CherishOS Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
 
 # Statusbar Icons
 PRODUCT_PACKAGES += \
+    DoraSignalOverlay \
     StrokeSignalOverlay \
     SneakySignalOverlay \
     XperiaSignalOverlay \
@@ -142,28 +24,79 @@ PRODUCT_PACKAGES += \
     WavySignalOverlay \
     RoundSignalOverlay \
     InsideSignalOverlay \
-    BarsSignalOverlay
+    BarsSignalOverlay \
+    AquariumSignalOverlay \
+    ButterflySignalOverlay \
+    DaunSignalOverlay \
+    DecSignalOverlay \
+    DeepSignalOverlay \
+    EqualSignalOverlay \
+    FanSignalOverlay \
+    HuaweiSignalOverlay \
+    RelSignalOverlay \
+    ScrollSignalOverlay \
+    SeaSignalOverlay \
+    StackSignalOverlay \
+    WannuiSignalOverlay \
+    WindowsSignalOverlay \
+    WingSignalOverlay \
+    CircleSignalOverlay \
+    IosSignalOverlay \
+    MiniSignalOverlay \
+    OdinSignalOverlay \
+    PillsSignalOverlay \
+    RomanSignalOverlay 
 
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
+    DoraWiFiOverlay \
     StrokeWiFiOverlay \
     SneakyWiFiOverlay \
     XperiaWiFiOverlay \
     ZigZagWiFiOverlay \
     WavyWiFiOverlay \
+    WeedWiFiOverlay \
     RoundWiFiOverlay \
     InsideWiFiOverlay \
     BarsWiFiOverlay
 
-#Prebuilt app	
+# Themes
 PRODUCT_PACKAGES += \
-    WeatherIcons
-
-# System-wide Sliders Styles
+    AndroidBlackThemeOverlay \
+    AndroidClearThemeOverlay \
+    AndroidVividThemeOverlay \
+	UnmonetThemeAndroidOverlay \
+    UnmonetThemeSettingsOverlay \
+    NexodusThemeAndroidOverlay \
+    NexodusThemeSettingsOverlay \
+    NexodusThemeSystemUIOverlay \
+    ProjectOptronicThemeAndroidOverlay \
+    ProjectOptronicThemeSettingsOverlay \
+    ProjectOptronicThemeSystemUIOverlay \
+    PacleggersThemeAndroidOverlay \
+    PacleggersThemeSettingsOverlay \
+    PacleggersThemeSystemUIOverlay \
+    SolarizedThemeAndroidOverlay \
+    SolarizedThemeSettingsOverlay \
+    SolarizedThemeSystemUIOverlay \
+    ShishuIllusionsThemeAndroidOverlay \
+    ShishuIllusionsThemeSettingsOverlay \
+    ShishuIllusionsThemeSystemUIOverlay \
+    ShishuImmensityThemeAndroidOverlay \
+    ShishuImmensityThemeSettingsOverlay \
+    ShishuImmensityThemeSystemUIOverlay \
+    ShishuThemeAndroidOverlay \
+    ShishuThemeSettingsOverlay \
+    ShishuThemeSystemUIOverlay \
+    ShishuNightsThemeAndroidOverlay \
+    ShishuNightsThemeSettingsOverlay \
+    ShishuNightsThemeSystemUIOverlay \
+    ShishuAmalgamationThemeAndroidOverlay \
+    ShishuAmalgamationThemeSettingsOverlay \
+    ShishuAmalgamationThemeSystemUIOverlay
+	
+# QS Panel
 PRODUCT_PACKAGES += \
-    SliderStylesDaniel \
-    SliderStylesDefault \
-    SliderStylesMemeMini \
-    SliderStylesMemeRound \
-    SliderStylesMemeRoundStroke \
-    SliderStylesMemeStroke	
+    QSRoundedRectangle \
+    QSOutline \
+    QSTwoToneAccent
