@@ -19,8 +19,13 @@
         xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
         android:color="?android:attr/colorControlHighlight">
     <item>
-        <shape>
-            <solid android:color="@drawable/color_surface_alpha" />
-        </shape>
+        <shape android:shape="rectangle">
+                <corners android:radius="24dp" />
+                <padding
+                    android:left="10dp"
+                    android:right="10dp" />
+            <stroke android:width="@dimen/qs_tile_stroke" android:color="?android:attr/colorAccent" />
+          <solid android:color="@drawable/color_accent_alpha" />
+       </shape>
     </item>
 </ripple>

@@ -16,7 +16,7 @@
   -->
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
-    android:color="?android:attr/colorControlHighlight">
+    android:color="@drawable/color_accent_alpha">
     <item>
         <inset
             android:insetBottom="4dp"
@@ -26,8 +26,8 @@
                 <padding
                     android:left="20dp"
                     android:right="20dp" />
-                <solid android:color="@*android:color/qs_translucent_brightness_bg" />
-                <stroke android:width="1dp" android:color="?android:attr/colorAccent" />
+                <stroke android:width="@dimen/qs_tile_stroke" android:color="?android:attr/colorAccent" />
+                <solid android:color="@drawable/color_accent_alpha" />
             </shape>
         </inset>
     </item>
