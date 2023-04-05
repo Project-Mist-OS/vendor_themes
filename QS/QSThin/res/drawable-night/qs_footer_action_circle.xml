@@ -9,9 +9,12 @@
             </shape>
         </item>
         <item>
-            <shape android:tintMode="multiply">
-                <solid android:color="@*android:color/system_neutral2_800" />
+            <shape>
                 <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+                <gradient
+                    android:angle="315.0"
+                    android:endColor="@*android:color/system_accent1_400"
+                    android:startColor="@*android:color/system_accent1_400" />
             </shape>
         </item>
         <item
@@ -19,26 +22,14 @@
             android:start="2.0dp"
             android:end="2.0dp"
             android:top="2.0dp">
-            <shape android:tintMode="multiply">
-                <gradient
-                    android:angle="270.0"
-                    android:endColor="#FF0F0F0F"
-                    android:startColor="#FF363636" />
+            <shape>
                 <corners android:radius="@*android:dimen/harmful_app_name_padding_right" />
-            </shape>
-        </item>
-        <item
-            android:bottom="4.0dp"
-            android:start="4.0dp"
-            android:end="4.0dp"
-            android:top="4.0dp">
-            <shape android:tintMode="multiply">
                 <gradient
-                    android:angle="90.0"
-                    android:endColor="@*android:color/system_accent1_400"
-                    android:startColor="@*android:color/system_accent1_400" />
-                <corners android:radius="@*android:dimen/harmful_app_name_padding_left" />
+                    android:angle="0.0"
+                    android:endColor="#B3000000"
+                    android:startColor="#99000000" />
             </shape>
         </item>
     </ripple>
 </inset>
+
