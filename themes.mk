@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
     DeepSignalOverlay \
     EqualSignalOverlay \
     FanSignalOverlay \
+    GradiconSignalOverlay \
     HuaweiSignalOverlay \
     RelSignalOverlay \
     ScrollSignalOverlay \
@@ -43,6 +44,7 @@ PRODUCT_PACKAGES += \
     CircleSignalOverlay \
     IosSignalOverlay \
     MiniSignalOverlay \
+    NothingDotSignalOverlay \
     OdinSignalOverlay \
     PillsSignalOverlay \
     RomanSignalOverlay 
@@ -50,6 +52,8 @@ PRODUCT_PACKAGES += \
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
     DoraWiFiOverlay \
+    GradiconWiFiOverlay \
+    NothingDotWiFiOverlay \
     StrokeWiFiOverlay \
     SneakyWiFiOverlay \
     XperiaWiFiOverlay \
