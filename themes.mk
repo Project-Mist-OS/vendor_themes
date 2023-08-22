@@ -14,6 +14,22 @@
 # limitations under the License.
 #
 
+# Data icons
+PRODUCT_PACKAGES += \
+    AuroraDataOverlay \
+    FaintUIDataOverlay \
+    GradiconDataOverlay \
+    LornDataOverlay \
+    PlumpyDataOverlay
+
+# Icon Data
+PRODUCT_PACKAGES += \
+    IconDataFive \
+    IconDataFour \
+    IconDataOne \
+    IconDataThree \
+    IconDataTwo
+
 # Icon shapes
 PRODUCT_PACKAGES += \
     IconShapeIosOverlay \
